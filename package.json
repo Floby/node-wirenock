@@ -1,6 +1,6 @@
 {
   "name": "wirenock",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A nock-like interface to configure a running Wiremock server",
   "main": "index.js",
   "scripts": {
