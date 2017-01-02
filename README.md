@@ -24,11 +24,13 @@ const scope = wirenock('http://wiremock.host:8080')
   .reply(200, {
     some: 'data'
   })
-
-// Later...
-scope.isDone()
-  .then(() => console.log('success'))
-  .catch((reason) => console.error('something went wrong', reason))
+  .configure()
+  .then(() => {
+    // Later...
+    scope.isDone()
+      .then(() => console.log('success'))
+      .catch((reason) => console.error('something went wrong', reason))
+  })
 ```
 
 Test

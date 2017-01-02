@@ -1,0 +1,3 @@
+exports.sendDescriptions = (url, descriptions) => {
+
+}
