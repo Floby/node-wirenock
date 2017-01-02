@@ -1,0 +1,32 @@
+{
+  "name": "wirenock",
+  "version": "1.0.0",
+  "description": "A nock-like interface to configure a running Wiremock server",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover --print detail _mocha -- -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floby/node-wirenock.git"
+  },
+  "keywords": [
+    "wiremock",
+    "client",
+    "wiremock",
+    "client",
+    "nock",
+    "test",
+    "HTTP",
+    "HTTPS",
+    "stub",
+    "mock",
+    "http-mock"
+  ],
+  "author": "Florent Jaby <florent.jaby@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Floby/node-wirenock/issues"
+  },
+  "homepage": "https://github.com/Floby/node-wirenock#readme"
+}
